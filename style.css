@@ -1,3 +1,63 @@
-h1 {
+#top-menu {
+  font-family: 'Libre Franklin', serif;
+  padding: 0;
   text-align: center;
+}
+#top-menu li, #top-menu li a:visited {
+  background-color: #e57200;
+  border-color: #141e3c;
+  color: #232d4b;
+  display: inline-block;
+  font-size: 2.5em;
+}
+
+#top-menu li a {
+  padding: 0.1em 1em;
+  text-decoration: none;
+}
+
+#top-menu li a:hover {
+  background: #eb5f0c;
+}
+
+#top-menu li a:active {
+  color: #dadada;
+}
+
+h1 {
+  animation-direction: alternate-reverse;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: test;
+  margin-top: 5em;
+  text-align: center;
+}
+
+@keyframes test {
+  from {
+    color: #e57200;
   }
+  to {
+    color: #232d4b;
+  }
+}
+
+#hire {
+  margin-top: 2em;
+  text-align: center;
+}
+
+#hire li {
+  display: inline-block;
+  font-size: 2em;
+}
+
+#hire li a {
+  color: transparent;
+  text-align: center;
+}
+
+#hire li a:hover {
+  color: orange;
+}
+
