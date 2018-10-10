@@ -5,13 +5,13 @@
 }
 #top-menu li, #top-menu li a:visited {
   background-color: #e57200;
-  border-color: #141e3c;
   color: #232d4b;
   display: inline-block;
   font-size: 2.5em;
 }
 
 #top-menu li a {
+  color: #232d4b;
   padding: 0.1em 1em;
   text-decoration: none;
 }
