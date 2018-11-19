@@ -61,3 +61,13 @@ h1 {
   color: orange;
 }
 
+/* Projects */
+#okay-container {
+  text-align: center;
+}
+
+/* https://stackoverflow.com/a/30601698 */
+.g-recaptcha div { 
+  margin-left: auto;
+  margin-right: auto;
+}
