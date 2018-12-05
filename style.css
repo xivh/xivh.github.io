@@ -1,5 +1,16 @@
+/* General */
+body {
+  background-color: #232d4b;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Top Menu */
 #top-menu {
-  font-family: 'Libre Franklin', serif;
+  font-family: 'Libre Franklin', sans-serif;
   padding: 0;
   text-align: center;
 }
@@ -24,50 +35,39 @@
   color: #dadada;
 }
 
-h1 {
-  animation-direction: alternate-reverse;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-name: test;
-  margin-top: 5em;
-  text-align: center;
-}
-
-@keyframes test {
-  from {
-    color: #e57200;
-  }
-  to {
-    color: #232d4b;
-  }
-}
-
-#hire {
-  margin-top: 2em;
-  text-align: center;
-}
-
-#hire li {
-  display: inline-block;
-  font-size: 2em;
-}
-
-#hire li a {
-  color: transparent;
-  text-align: center;
-}
-
-#hire li a:hover {
-  color: orange;
-}
-
 /* Projects */
-#okay-container {
-  text-align: center;
+.div-projects {
+  background-color: #e57200;
+  width: 70em;
+  height: 20em;
+  display: inline-block;
+  margin: 0.5em;
 }
 
-/* https://stackoverflow.com/a/30601698 */
-.g-recaptcha div { 
-  margin-left: auto;
-  margin-right: auto;
+.div-projects h1 {
+  color: #B43F22;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+/* About */
+.div-about {
+  background-color: #e57200;
+  width: 70em;
+  height: 10em;
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.div-about h1 {
+  color: #B43F22;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.div-about p {
+  color: #B43F22;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+p.upcoming {
+  color: #FBB646;
 }
