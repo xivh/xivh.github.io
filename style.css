@@ -38,36 +38,70 @@ h1 {
 /* Projects */
 .div-projects {
   background-color: #e57200;
-  width: 70em;
-  height: 20em;
   display: inline-block;
+  height: 20em;
   margin: 0.5em;
+  width: 70em;
 }
 
-.div-projects h1 {
-  color: #B43F22;
+.div-projects h1, a, p {
+  color: #b43f22;
   font-family: 'Libre Franklin', sans-serif;
+}
+
+.div-projects p {
+  margin: 5em;
+  text-align: justify;
 }
 
 /* About */
 .div-about {
   background-color: #e57200;
-  width: 70em;
-  height: 10em;
   display: inline-block;
+  height: 10em;
   margin: 0.5em;
+  width: 70em;
 }
 
 .div-about h1 {
-  color: #B43F22;
+  color: #b43f22;
   font-family: 'Libre Franklin', sans-serif;
 }
 
 .div-about p {
-  color: #B43F22;
+  color: #b43f22;
   font-family: 'Libre Franklin', sans-serif;
 }
 
 p.upcoming {
-  color: #FBB646;
+  color: #fbb646;
+}
+
+/* Contact */
+.div-contact {
+  background-color: #e57200;
+  display: inline-block;
+  height: 15em;
+  margin: 0.5em;
+  width: 70em;
+}
+
+.div-contact h1 {
+  color: #b43f22;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.div-contact a {
+  color: #b43f22;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 5em;
+  text-decoration: none;
+}
+#div-github {
+  float: left;
+  margin-left: 5em;
+}
+#div-linkedin {
+  float: right;
+  margin-right: 5em;
 }
