@@ -5,7 +5,14 @@ body {
 }
 
 h1 {
+  font-size: 2em;
   text-align: center;
+  color: #232d4b;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+p {
+  font-size: 1.5em;
 }
 
 /* Top Menu */
@@ -34,6 +41,70 @@ h1 {
 #top-menu li a:active {
   color: #dadada;
 }
+/* Index */
+#title, #subtitle-one, #subtitle-two {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+@keyframes title {
+  0% {
+    color:  #e57200;
+    font-size: 1em;
+  }
+  70% {
+    font-size: 3.5em;
+  }
+  100% {
+    color: #b43f22;
+    font-size: 5em;
+  }
+}
+
+@keyframes subtitle-one {
+  0% {
+    color: #b43f22;
+    font-size: 0em;
+  }
+  65% {
+    font-size: 2em;
+  }
+}
+
+@keyframes subtitle-two {
+  0% {
+    font-size: 0em;
+    color: #b43f22;
+  }
+  90% {
+    font-size: 1.5em;
+  }
+}
+
+#title {
+  animation-name: title;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  margin: 3em 0 0;
+}
+
+#subtitle-one {
+  animation-name: subtitle-one;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  margin: 0;
+}
+
+#subtitle-two {
+  animation-name: subtitle-two;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  margin: 0;
+}
 
 /* Projects */
 .div-projects {
@@ -44,15 +115,24 @@ h1 {
   width: 70em;
 }
 
-.div-projects h1, a, p {
-  color: #b43f22;
+.div-projects h1, p {
   font-family: 'Libre Franklin', sans-serif;
 }
 
 .div-projects p {
-  margin: 5em;
+  margin: 1em 5em;
   text-align: justify;
+  color: #dadada;
 }
+
+.div-projects a:link, a:visited {
+  color: #b43f22;
+}
+
+.div-projects a:active, a:hover {
+  color: #dadada;
+}
+
 
 /* About */
 .div-about {
@@ -63,18 +143,13 @@ h1 {
   width: 70em;
 }
 
-.div-about h1 {
-  color: #b43f22;
-  font-family: 'Libre Franklin', sans-serif;
-}
-
 .div-about p {
-  color: #b43f22;
+  color: #dadada;
   font-family: 'Libre Franklin', sans-serif;
 }
 
 p.upcoming {
-  color: #fbb646;
+  color: #b43f22;
 }
 
 /* Contact */
@@ -84,11 +159,6 @@ p.upcoming {
   height: 15em;
   margin: 0.5em;
   width: 70em;
-}
-
-.div-contact h1 {
-  color: #b43f22;
-  font-family: 'Libre Franklin', sans-serif;
 }
 
 .div-contact a {
