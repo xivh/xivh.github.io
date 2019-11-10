@@ -120,17 +120,13 @@ p {
 }
 
 .div-projects p {
-  color: #dadada;
+  color: #232d4b;
   margin: 1em 5em;
   text-align: justify;
 }
 
-.div-projects a:link, a:visited {
-  color: #b43f22;
-}
-
-.div-projects a:active, a:hover {
-  color: #dadada;
+.div-projects a {
+  color: #fff;
 }
 
 
@@ -144,7 +140,7 @@ p {
 }
 
 .div-about p {
-  color: #dadada;
+  color: #232d4b;
   font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -155,7 +151,7 @@ p {
 }
 
 p.upcoming {
-  color: #b43f22;
+  color: #232d4b;
 }
 
 /* Contact */
@@ -168,7 +164,7 @@ p.upcoming {
 }
 
 .div-contact a {
-  color: #b43f22;
+  color: #fff;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 5em;
   text-decoration: none;
