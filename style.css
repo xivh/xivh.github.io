@@ -148,7 +148,7 @@ p {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-.iframe-resume {
+#iframe-resume {
   border: none;
   height: 1500em;
   width: 100%;
