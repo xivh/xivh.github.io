@@ -148,6 +148,10 @@ p {
   font-family: 'Libre Franklin', sans-serif;
 }
 
+.resume {
+  background-color: #fff;
+}
+
 p.upcoming {
   color: #b43f22;
 }
