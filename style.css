@@ -5,10 +5,10 @@ body {
 }
 
 h1 {
-  font-size: 2em;
-  text-align: center;
   color: #232d4b;
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 2em;
+  text-align: center;
 }
 
 p {
@@ -48,7 +48,7 @@ p {
 
 @keyframes title {
   0% {
-    color:  #e57200;
+    color: #e57200;
     font-size: 1em;
   }
   70% {
@@ -63,7 +63,7 @@ p {
 @keyframes subtitle-one {
   0% {
     color: #b43f22;
-    font-size: 0em;
+    font-size: 0;
   }
   65% {
     font-size: 2em;
@@ -72,8 +72,8 @@ p {
 
 @keyframes subtitle-two {
   0% {
-    font-size: 0em;
     color: #b43f22;
+    font-size: 0;
   }
   90% {
     font-size: 1.5em;
@@ -81,27 +81,27 @@ p {
 }
 
 #title {
-  animation-name: title;
-  animation-duration: 5s;
   animation-direction: alternate;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-name: title;
   margin: 3em 0 0;
 }
 
 #subtitle-one {
-  animation-name: subtitle-one;
-  animation-duration: 5s;
   animation-direction: alternate;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-name: subtitle-one;
   animation-timing-function: step-end;
   margin: 0;
 }
 
 #subtitle-two {
-  animation-name: subtitle-two;
-  animation-duration: 5s;
   animation-direction: alternate;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-name: subtitle-two;
   animation-timing-function: step-end;
   margin: 0;
 }
@@ -120,9 +120,9 @@ p {
 }
 
 .div-projects p {
+  color: #dadada;
   margin: 1em 5em;
   text-align: justify;
-  color: #dadada;
 }
 
 .div-projects a:link, a:visited {
@@ -148,8 +148,10 @@ p {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-.resume {
-  background-color: #fff;
+.iframe-resume {
+  border: none;
+  height: 1500em;
+  width: 100%;
 }
 
 p.upcoming {
