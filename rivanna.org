@@ -1,0 +1,13 @@
+* Keeping track of Rivanna usage for StyleGAN2, WIP
+** Rivanna
+*** hours
+| purpose                          | hours | dataset      | results     |
+|----------------------------------+-------+--------------+-------------|
+| zhao small dataset augmentations |   432 | 1400 posters | much better |
+| non-normal latents               |     3 | n/a          | n/a         |
+*** networks
+    - 1400 augmented posters
+** GCP
+*** networks
+    - retrained fruit model on TPUs, squashed to 512x512
+    - retrained fruit model on TPUs, squashed to 512x512 + small dataset augs
